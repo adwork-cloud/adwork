@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/adwork/static/css/main.04916f6b.css",
+    "main.js": "/adwork/static/js/main.4201ede8.js",
+    "static/media/webBg.png": "/adwork/static/media/webBg.8e7dffaff08273125296.png",
+    "static/media/blackBg.png": "/adwork/static/media/blackBg.7383dc0ed8745220ab94.png",
+    "index.html": "/adwork/index.html",
+    "main.04916f6b.css.map": "/adwork/static/css/main.04916f6b.css.map",
+    "main.4201ede8.js.map": "/adwork/static/js/main.4201ede8.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.04916f6b.css",
+    "static/js/main.4201ede8.js"
+  ]
+}
