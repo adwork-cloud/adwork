@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/adwork/static/css/main.7e9e3a1a.css",
-    "main.js": "/adwork/static/js/main.c93f122d.js",
-    "static/media/webBg.png": "/adwork/static/media/webBg.8e7dffaff08273125296.png",
+    "main.css": "/adwork/static/css/main.c9502006.css",
+    "main.js": "/adwork/static/js/main.c34c6350.js",
+    "static/media/campaign.mp4": "/adwork/static/media/campaign.1e0461df1a97a1f1de2f.mp4",
+    "static/media/services_img.jpg": "/adwork/static/media/services_img.c6f2fcbcdeaaa583cfe1.jpg",
+    "static/media/about.jpg": "/adwork/static/media/about.f8e803d5163397d654ab.jpg",
+    "static/media/handshake.jpg": "/adwork/static/media/handshake.b04c0602f0ecf82728a0.jpg",
     "static/media/blackBg.png": "/adwork/static/media/blackBg.7383dc0ed8745220ab94.png",
     "index.html": "/adwork/index.html",
-    "main.7e9e3a1a.css.map": "/adwork/static/css/main.7e9e3a1a.css.map",
-    "main.c93f122d.js.map": "/adwork/static/js/main.c93f122d.js.map"
+    "main.c9502006.css.map": "/adwork/static/css/main.c9502006.css.map",
+    "main.c34c6350.js.map": "/adwork/static/js/main.c34c6350.js.map"
   },
   "entrypoints": [
-    "static/css/main.7e9e3a1a.css",
-    "static/js/main.c93f122d.js"
+    "static/css/main.c9502006.css",
+    "static/js/main.c34c6350.js"
   ]
 }
