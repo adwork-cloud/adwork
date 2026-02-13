@@ -921,7 +921,7 @@ html, body {
   .frame-home {
     width: min(92vw, 820px);
     margin: 0 auto;
-    padding: 0 18px;
+    padding: 5dvh;
   }
 
   .section {
