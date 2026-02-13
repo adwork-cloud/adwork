@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/adwork/static/css/main.1b41e368.css",
+    "main.css": "/adwork/static/css/main.b1e507b1.css",
     "main.js": "/adwork/static/js/main.25e7a01b.js",
     "static/media/campaign.mp4": "/adwork/static/media/campaign.1e0461df1a97a1f1de2f.mp4",
     "static/media/services_img.jpg": "/adwork/static/media/services_img.c6f2fcbcdeaaa583cfe1.jpg",
@@ -8,11 +8,11 @@
     "static/media/handshake.jpg": "/adwork/static/media/handshake.b04c0602f0ecf82728a0.jpg",
     "static/media/blackBg.png": "/adwork/static/media/blackBg.7383dc0ed8745220ab94.png",
     "index.html": "/adwork/index.html",
-    "main.1b41e368.css.map": "/adwork/static/css/main.1b41e368.css.map",
+    "main.b1e507b1.css.map": "/adwork/static/css/main.b1e507b1.css.map",
     "main.25e7a01b.js.map": "/adwork/static/js/main.25e7a01b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1b41e368.css",
+    "static/css/main.b1e507b1.css",
     "static/js/main.25e7a01b.js"
   ]
 }
