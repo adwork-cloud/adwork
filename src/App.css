@@ -916,7 +916,9 @@ html, body {
 ========================================= */
 
 @media (max-width: 900px) {
-
+  .about-head {
+    padding: 5dvh;
+  }
 
 
   /* -------- layout spacing -------- */
