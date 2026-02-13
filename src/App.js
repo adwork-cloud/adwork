@@ -30,7 +30,10 @@ export default function App() {
                 const idx = Number(visible.target.dataset.index);
                 if (!Number.isNaN(idx)) setActiveIndex(idx);
             },
-            { root: null, threshold: [0.7, 0.85, 0.95, 1] }
+            { root: null,
+                threshold: [0.35, 0.5, 0.65],
+                rootMargin: "-80px 0px 0px 0px" // navbar height
+            }
         );
 
         els.forEach((el) => observer.observe(el));
