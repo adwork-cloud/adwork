@@ -923,7 +923,7 @@ html, body {
   .frame,
   .frame-home {
     width: min(92vw, 820px);
-    margin: 0 auto 10dvh;
+    margin: 5dvh auto 10dvh;
     padding: 10dvh 5dvh 0;
     height: 100dvh;
   }
