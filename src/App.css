@@ -932,7 +932,7 @@ html, body {
 
   .section {
     padding-top: 60px;
-    height: auto;
+    height: 100dvh;
   }
 
   /* -------- nav -------- */
