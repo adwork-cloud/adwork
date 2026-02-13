@@ -917,6 +917,10 @@ html, body {
 
 @media (max-width: 900px) {
 
+  .contact-choice{
+    color: #0b0b0b;
+  }
+
   /* -------- layout spacing -------- */
   .frame,
   .frame-home {
@@ -928,11 +932,12 @@ html, body {
 
   .section {
     padding-top: 60px;
+    height: auto;
   }
 
   /* -------- nav -------- */
   .nav-logo {
-    height: 52px;
+    height: fit-content;
   }
 
   .navbtn {
