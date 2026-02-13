@@ -980,7 +980,7 @@ html, body {
   .fill-video,
   .imgbox {
     width: 100dvh;
-    height: 20dvh;
+    height: 30dvh;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
@@ -990,7 +990,7 @@ html, body {
   /* -------- remove hard 50% widths (main problem zone) -------- */
   .video-box {
     width: 100dvh;
-    height: 20dvh;
+    height: 30dvh;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
@@ -1018,7 +1018,10 @@ html, body {
   /* -------- about image sizing -------- */
   .about-imgbox {
     width: 100dvh;
-    height: 20dvh;
+    height: 30dvh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
   }
 }
 
