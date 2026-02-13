@@ -927,7 +927,7 @@ html, body {
     width: min(92vw, 820px);
     margin: 0 auto;
     padding: 10dvh;
-    height: auto;
+    height: 100dvh;
   }
 
   .section {
