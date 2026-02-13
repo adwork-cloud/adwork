@@ -937,7 +937,7 @@ html, body {
 
   /* -------- nav -------- */
   .nav-logo {
-    height: fit-content;
+    height: 52px;
   }
 
   .navbtn {
