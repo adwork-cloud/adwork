@@ -176,12 +176,14 @@ html, body {
   height: 100%;
   object-fit: cover;
   display: block;
+  object-position: center;
 }
 
 .fill-video {
   width: 100%;
   height: 100%;
-  object-fit: cover;     /* ✅ cover full area */
+  object-fit: cover;
+  object-position: center; /* ✅ cover full area */
   display: block;
 }
 
@@ -329,6 +331,9 @@ html, body {
   overflow: hidden;
   height: inherit;
   width: 100%;
+  object-fit: cover;
+  object-position: center;
+  display: block;
 }
 
 .imgbox::after {
@@ -343,6 +348,9 @@ html, body {
   overflow: hidden;
   height: inherit;
   width: 550px;
+  object-position: center;
+  object-fit: cover;
+  display: block;
 }
 
 .imgbox::after {
@@ -574,7 +582,9 @@ input, textarea{
   margin-top: -6px;
   width: 50%;
   height: 101%;          /* fill full right side */
-  overflow: inherit;
+  overflow: hidden;
+  position: relative;
+  display: block;
 }
 
 /* ============================= */
@@ -682,12 +692,41 @@ input, textarea{
 
 
 /* Responsive */
-@media (max-width: 900px){
+@media (max-width: 768px){
+  .section{
+   height: 100dvh;
+  }
   .innovative{ grid-template-columns: 1fr; }
   .innovative-right{ height: 32vh; }
 
   .three-col{ grid-template-columns: 1fr; }
-  .imgbox{ height: 28vh; }
+  .imgbox{
+    display: block !important;
+    position: inherit;
+    overflow: hidden;
+    height: inherit;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+  }
+  .about-imgbox{
+    display: block !important;
+    position: inherit;
+    overflow: hidden;
+    height: inherit;
+    width: 550px;
+    object-position: center;
+    object-fit: cover;
+  }
+
+  .video-box{
+    display: block !important;
+    margin-top: -6px;
+    width: 50%;
+    height: 101%;          /* fill full right side */
+    overflow: hidden;
+    position: relative;
+  }
 
   .about-line{
     flex-direction: column;
