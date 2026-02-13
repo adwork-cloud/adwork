@@ -822,11 +822,12 @@ html, body {
   .fill-img,
   .fill-video,
   .imgbox {
-    width: 100%;
-    height: 100%;
+    width: 100dvh;
+    height: 30dvh;
     object-fit: cover;
     object-position: center;
-    display: block;
+    overflow: hidden;
+    display: block !important;
   }
 
   /* --------- FIX: video-box currently hardcoded to width 50% ---------- */
@@ -921,7 +922,7 @@ html, body {
   .frame-home {
     width: min(92vw, 820px);
     margin: 0 auto;
-    padding: 5.5dvh;
+    padding: 10dvh;
   }
 
   .section {
@@ -936,6 +937,9 @@ html, body {
   .navbtn {
     font-size: 11px;
     padding: 7px 9px;
+  }
+  .topnav{
+    height: 10dvh;
   }
 
   /* -------- floating contact -------- */
@@ -969,9 +973,12 @@ html, body {
   /* keep media proportional */
   .innovative-right,
   .video-box {
-    width: 100dvh;
-    height: 100dvh;
+    width: 100dvw;
+    height: 30dvh;
+    object-fit: cover;
+    object-position: center;
     overflow: hidden;
+    display: block !important;
   }
 
   .innovative-right img,
@@ -979,21 +986,23 @@ html, body {
   .fill-img,
   .fill-video,
   .imgbox {
-    width: 100dvh;
+    width: 100dvw;
     height: 30dvh;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
+    display: block !important;
 
   }
 
   /* -------- remove hard 50% widths (main problem zone) -------- */
   .video-box {
-    width: 100dvh;
+    width: 100dvw;
     height: 30dvh;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
+    display: block !important;
   }
 
   .footer {
@@ -1017,11 +1026,12 @@ html, body {
 
   /* -------- about image sizing -------- */
   .about-imgbox {
-    width: 100dvh;
+    width: 100dvw;
     height: 30dvh;
     object-fit: cover;
     object-position: center;
     overflow: hidden;
+    display: block !important;
   }
 }
 
