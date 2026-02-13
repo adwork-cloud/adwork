@@ -692,7 +692,7 @@ input, textarea{
 
 
 /* Responsive */
-@media (max-width: 768px){
+@media (max-width: 900px) {
   .section{
    height: 100dvh;
   }
