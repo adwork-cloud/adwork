@@ -980,15 +980,20 @@ html, body {
   .fill-video,
   .imgbox {
     width: 100dvh;
-    height: 80dvh;
+    height: 20dvh;
     object-fit: cover;
+    object-position: center;
+    overflow: hidden;
 
   }
 
   /* -------- remove hard 50% widths (main problem zone) -------- */
   .video-box {
     width: 100dvh;
-    height: 100dvh;
+    height: 20dvh;
+    object-fit: cover;
+    object-position: center;
+    overflow: hidden;
   }
 
   .footer {
