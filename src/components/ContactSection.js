@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 export default function ContactSection({ active, setRef, index }) {
     const [mode, setMode] = useState(null); // null | "email"
 
-    const whatsappLink = "https://wa.me/6591234567";
+    const whatsappLink = "https://wa.me/6592225021?text=Hello%20Adwork%2C%20I%27d%20like%20to%20enquire%20about%20your%20services.";
 
     return (
         <section
