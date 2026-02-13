@@ -917,13 +917,7 @@ html, body {
 
 @media (max-width: 900px) {
 
-  .contact-options {
-    height: 10dvh;
-  }
-  .contact-choice{
-    color: #0b0b0b;
-    font-size: 20px;
-  }
+
 
   /* -------- layout spacing -------- */
   .frame,
@@ -1032,9 +1026,12 @@ html, body {
   }
 
   /* -------- contact choices -------- */
-  .contact-choice {
+  .contact-options {
+    height: 10dvh;
+  }
+  .contact-choice{
+    color: #0b0b0b;
     font-size: 20px;
-    padding: 16px;
   }
 
   /* -------- about image sizing -------- */
